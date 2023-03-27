@@ -2,7 +2,6 @@ import './App.css';
 import Footer from './Footer';
 import Header from './Header';
 import Main from './Main';
-import Nav from './Nav';
 function App() {
   return (
     <>
@@ -11,7 +10,6 @@ function App() {
     <meta name="og:description" content="Little Lemon Pizza Family Restaurant"/>
     <meta name="og:image" content=""/>
     <Header/>
-    <Nav/>
     <Main/>
     <Footer/>
     </>

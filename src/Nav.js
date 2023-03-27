@@ -1,12 +1,11 @@
 function Nav() {
     return(
-        <nav>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+        <nav className="navigation">
+            <ul className="nav">
+                <li>Home</li>
+                <li>Contact</li>
+                <li>About</li>
+                <li>Dishes</li>
             </ul>
         </nav>
     )

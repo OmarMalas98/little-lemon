@@ -1,7 +1,12 @@
+import Nav from './Nav';
+import littleLemonLogo from './littleLemonLogo.png';
+
 function Header() {
     return(
-        <header>
-            <img src={littleLemonLogo}/>
+        <header className='header'>
+            <img className='logo' src={littleLemonLogo} alt={"Little Lemon Logo"}/>
+            <Nav/>
+
         </header>
     )
 }
